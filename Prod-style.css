@@ -1,0 +1,162 @@
+#header-img{
+    width: 67px;
+    height: 73px;
+    margin-left: -88em;
+    margin-top: -17px;
+}
+
+.prod-text h2{
+	margin-left: 35%;
+	margin-top: 20px;
+	font-size: 65px;
+	color: black;
+}
+
+.prod{
+	flex: 1;
+	display: flex;
+	justify-content: center;
+}
+
+.prod img{
+	height: 50vh;
+	cursor: pointer;
+}
+
+.image-resize{
+	display: flex;
+    margin-inline: 10px;
+    margin-top: 58px;
+    margin-left: 10px;
+}
+
+.Summer{
+	position: absolute;
+	float: left;
+	font-size: 15px;
+	left: 2%;
+    top: 570px;
+	color: black;
+}
+
+.Summerprice{
+	position: absolute;
+	font-size: 15px;
+	left: 9%;
+	top: 600px;
+	color: green;
+}
+
+.Retro{
+	position: absolute;
+	float: left;
+	font-size: 15px;
+	left: 26%;
+    top: 570px;
+	color: black;
+}
+
+.Retroprice{
+	position: absolute;
+	font-size: 15px;
+	left: 33%;
+	top: 600px;
+	color: green;
+}
+
+.Create{
+	position: absolute;
+	float: left;
+	font-size: 15px;
+	left: 53%;
+    top: 570px;
+	color: black;
+}
+
+.Createprice{
+	position: absolute;
+	font-size: 15px;
+	left: 60%;
+	top: 600px;
+	color: green;
+}
+
+.Pride{
+	position: absolute;
+	float: left;
+	font-size: 15px;
+	left: 83%;
+    top: 570px;
+	color: black;
+}
+
+.Prideprice{
+	position: absolute;
+	font-size: 15px;
+	left: 86%;
+	top: 600px;
+	color: green;
+}
+
+@media screen and (max-width: 1024px){
+	.prod img{
+		height: 28vh;
+		cursor: pointer;
+	}
+	.image-resize{
+		display: flex;
+    	margin-inline: 11px;
+    	margin-top: 63px;
+    	margin-left: 10px;
+	}
+	.Prideprice{
+		font-size: 20px;
+		left: 79%;
+		top: 430px;
+		color: green;
+	}
+
+	.Pride{
+		color: white;
+	}
+
+	.Createprice{
+		font-size: 20px;
+		left: 56%;
+		top: 430px;
+		color: green;
+	}
+
+	.Create{
+		color: white;
+	}
+
+	.Retroprice{
+		font-size: 20px;
+		left: 33%;
+		top: 430px;
+		color: green;
+	}
+
+	.Retro{
+		color: white;
+	}
+
+	.Summerprice{
+		font-size: 20px;
+		left: 10%;
+		top: 430px;
+		color: green;
+	}
+
+	.Summer{
+		color: white;
+	}
+
+	.prod-text h2{
+		margin-left: 30%;
+		margin-top: 20px;
+		font-size: 65px;
+		color: black;
+	}
+}
